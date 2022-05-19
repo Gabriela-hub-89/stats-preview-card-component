@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
@@ -12,21 +12,36 @@
   <main>
     <div class="card">
 
-      <div class="img-card">
+      <div class="img-card row">
         <img src="images/image-header-desktop.jpg" alt="">
       </div>
 
-      <div class="info-card">
+      <div class="info-card row">
 
-        <h1 class="title">Get insights that help your business grow.</h1>
+        <h1 class="title">Get <span>insights</span> that help your business grow.</h1>
 
         <p class="text">Discover the benefits of data analytics  and make better decisions regarding revenue, customer experience, and overall eficciency</p>
         
         <div class="info">
 
-          <p><span>10k+</span> companies</p>
-          <p><span>314</span> templates</p>
-          <p><span>12M+</span> queries</p>
+          <div class="comp">
+
+            <p class="bold">10k+</p>
+            <p class="thin">companies</p>
+
+          </div>
+          <div class="templ">
+
+            <p class="bold">314</p>
+            <p class="thin">templates</p>
+
+          </div>
+          <div class="que">
+
+            <p class="bold">12M+</p>
+            <p class="thin">queries</p>
+
+          </div>
 
         </div>
       </div>
