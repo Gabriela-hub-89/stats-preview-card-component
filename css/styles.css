@@ -27,6 +27,7 @@ img{
 @media (min-width: 768px) {
     img{
         border-top-right-radius: 1rem;
+        border-top-left-radius: 0%;
         border-bottom-right-radius: 1rem;
     }
 }
